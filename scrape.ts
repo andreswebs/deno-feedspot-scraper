@@ -21,7 +21,7 @@ try {
     }
   });
 
-  headers.forEach(h => {
+  headers.forEach((h: any) => {
     const anchor = h.querySelector('a');
     if (anchor) {
       names.push(anchor.textContent);
