@@ -11,7 +11,7 @@ The script outputs the results to the console in [TSV](https://www.iana.org/assi
 ## Run
 
 ```sh
-deno run --allow-net scrape.ts | tee techfeeds.tsv
+deno run --allow-net https://raw.githubusercontent.com/andreswebs/deno-feedspot-scraper/main/scrape.ts | tee techfeeds.tsv
 ```
 
 ## Authors

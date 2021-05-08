@@ -29,6 +29,7 @@ try {
   });
 
   for (let i = 0; i < names.length; i++) {
+    if (!links[i]) { continue; }
     tsv += `${names[i]}\t${links[i]}\n`;
   }
 
